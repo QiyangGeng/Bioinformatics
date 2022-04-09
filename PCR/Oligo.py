@@ -1,6 +1,12 @@
+"""
+A script to provide some basic information for PCR primers given a length and a DNA sequence.
+Author:         Qiyang Geng
+Date Created:   2022/04/09
+Last Edited:    2022/04/09
+"""
+
 import sys
 import pandas as pd
-from Bio.Seq import Seq
 from Bio.SeqUtils import *
 from Bio.SeqUtils import GC
 from Bio.SeqUtils import MeltingTemp
